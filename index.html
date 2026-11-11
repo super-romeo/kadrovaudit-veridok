@@ -8,6 +8,10 @@
 <meta name="description" content="Для ООО и ИП с 1–30 работниками без кадровика: договоры, приказы, Т-2, табели, график отпусков и ЕФС-1 сверены, список нарушений и что исправить.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Кадры в порядке</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Кадры в порядке</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Кадровые документы фирмы проверены целиком — список нарушений по каждому работнику и что исправить</h1>
-    <p class="sub">Для ООО и ИП с 1–30 работниками, где кадры ведёт директор, бухгалтер или аутсорсер: вы загружаете трудовые договоры, приказы, карточки Т-2, график отпусков, табели, согласия на обработку персональных данных и ЕФС-1, мы сверяем их между собой и с Трудовым кодексом и отдаём список нарушений со статьёй КоАП и тем, как исправить.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для ООО и ИП с 1–30 работниками</p>
+      <h1 class="rise" style="--i:1" data-len="long">Кадровые документы фирмы проверены целиком&nbsp;<span class="soft">— список нарушений по каждому работнику и что исправить</span></h1>
+      <p class="rise" style="--i:2">Для ООО и ИП с 1–30 работниками, где кадры ведёт директор, бухгалтер или аутсорсер: вы загружаете трудовые договоры, приказы, карточки Т-2, график отпусков, табели, согласия на обработку персональных данных и ЕФС-1, мы сверяем их между собой и с Трудовым кодексом и отдаём список нарушений со статьёй КоАП и тем, как исправить.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="36" fill="#0a1524" font-weight="600">Кадровые документы</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="282" font-size="30" fill="#0a1524">Весь комплект</text><rect x="120" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="402" font-size="30" fill="#0a1524">Сверка между собой</text><rect x="120" y="490" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="522" font-size="30" fill="#0a1524">Что исправить</text><rect x="700" y="250" width="380" height="420" rx="20" fill="#dfe8f7" /><rect x="740" y="490" width="52" height="120" rx="8" fill="#ffffff" /><rect x="820" y="410" width="52" height="200" rx="8" fill="#12397a" /><rect x="900" y="450" width="52" height="160" rx="8" fill="#b9c3d2" /><rect x="980" y="370" width="52" height="240" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>ООО и ИП</dd></div>
+      <div><dt>Загружаете</dt><dd>Трудовые договоры, приказы</dd></div>
+      <div><dt>Отдаём</dt><dd>Список нарушений со статьёй</dd></div>
+      <div><dt>Доступ</dt><dd>Ранний доступ</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Весь комплект</b><span>Договоры, приказы, Т-2, табели, график отпусков, согласия, ЕФС-1.</span><br><a class="btn" href="price.html" data-ev="feature_komplekt">Мне это нужно</a></div>
-      <div class="card"><b>Сверка между собой</b><span>Даты, должности и оклады совпадают во всех документах.</span><br><a class="btn" href="price.html" data-ev="feature_sverka">Мне это нужно</a></div>
-      <div class="card"><b>Нарушения со статьёй</b><span>Каждое — со статьёй ТК РФ и КоАП.</span><br><a class="btn" href="price.html" data-ev="feature_narusheniya">Мне это нужно</a></div>
-      <div class="card"><b>Что исправить</b><span>По каждому нарушению — что и как поправить.</span><br><a class="btn" href="price.html" data-ev="feature_ispravit">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="150" font-size="34" fill="#0a1524" font-weight="600">Весь комплект</text><text x="110" y="210" font-size="30" fill="#566174">график отпусков</text><rect x="110" y="270" width="480" height="56" rx="28" fill="#dfe8f7" /><rect x="110" y="350" width="480" height="56" rx="28" fill="#12397a" /><rect x="110" y="430" width="480" height="56" rx="28" fill="#dde2ea" /></svg></div>
+        <h3>Весь комплект</h3><p>Договоры, приказы, Т-2, табели, график отпусков, согласия, ЕФС-1.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_komplekt">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="110" font-size="34" fill="#0a1524" font-weight="600">Сверка между собой</text><text x="70" y="168" font-size="30" fill="#566174">во всех документах</text><rect x="70" y="210" width="280" height="320" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="450" y="210" width="280" height="320" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="260" width="180" height="20" rx="8" fill="#dde2ea" /><rect x="480" y="260" width="160" height="20" rx="8" fill="#b9c3d2" /><line x1="360" y1="270" x2="440" y2="270" stroke="#b9c3d2" stroke-width="4" /><rect x="100" y="330" width="140" height="20" rx="8" fill="#dde2ea" /><rect x="480" y="330" width="120" height="20" rx="8" fill="#12397a" /><line x1="360" y1="340" x2="440" y2="340" stroke="#12397a" stroke-width="4" /><rect x="100" y="400" width="160" height="20" rx="8" fill="#dde2ea" /><rect x="480" y="400" width="140" height="20" rx="8" fill="#b9c3d2" /><line x1="360" y1="410" x2="440" y2="410" stroke="#b9c3d2" stroke-width="4" /></svg></div>
+        <h3>Сверка между собой</h3><p>Даты, должности и оклады совпадают во всех документах.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sverka">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="34" fill="#0a1524" font-weight="600">Нарушения со статьёй</text><text x="110" y="200" font-size="30" fill="#566174">ТК РФ</text><rect x="110" y="250" width="340" height="22" rx="10" fill="#dde2ea" /><rect x="110" y="310" width="280" height="22" rx="10" fill="#b9c3d2" /><rect x="110" y="370" width="300" height="22" rx="10" fill="#dde2ea" /><rect x="110" y="430" width="220" height="22" rx="10" fill="#dfe8f7" /><circle cx="600" cy="420" r="56" fill="#dfe8f7" stroke="#12397a" stroke-width="6" /><polyline points="572,420 592,442 632,392" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Нарушения со статьёй</h3><p>Каждое — со статьёй ТК РФ и КоАП.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_narusheniya">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="34" fill="#0a1524" font-weight="600">Что исправить</text><text x="110" y="200" font-size="30" fill="#566174">как поправить</text><rect x="110" y="260" width="44" height="44" rx="8" fill="#12397a" /><rect x="180" y="270" width="360" height="24" rx="12" fill="#b9c3d2" /><rect x="110" y="340" width="44" height="44" rx="8" fill="#12397a" /><rect x="180" y="350" width="310" height="24" rx="12" fill="#dde2ea" /><rect x="110" y="420" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="180" y="430" width="260" height="24" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Что исправить</h3><p>По каждому нарушению — что и как поправить.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ispravit">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Кафе на 12 работников, кадры ведёт бухгалтер на аутсорсе, кадровика в штате нет. Перед сменой бухгалтера директор загружает договоры, приказы и карточки. Проверка показывает: у двух поваров дата приёма в приказе не совпадает с датой в договоре, график отпусков на год не утверждён, у троих нет согласия на обработку персональных данных, а один приказ об увольнении не попал в ЕФС-1. По каждому пункту — статья и что сделать, и новый бухгалтер получает документы уже в порядке.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Кафе на 12 работников, кадры ведёт бухгалтер на аутсорсе, кадровика в штате нет. Перед сменой бухгалтера директор загружает договоры, приказы и карточки. Проверка показывает: у двух поваров дата приёма в приказе не совпадает с датой в договоре, график отпусков на год не утверждён, у троих нет согласия на обработку персональных данных, а один приказ об увольнении не попал в ЕФС-1. По каждому пункту — статья и что сделать, и новый бухгалтер получает документы уже в порядке.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Договоры</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Приказы</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Табели</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">12 работников</text><text x="170" y="480" font-size="32" fill="#566174">график отпусков</text><text x="170" y="560" font-size="32" fill="#0a1524">ЕФС-1</text><rect x="170" y="620" width="64" height="48" rx="10" fill="#dfe8f7" /><rect x="260" y="620" width="64" height="48" rx="10" fill="#12397a" /><rect x="350" y="620" width="64" height="48" rx="10" fill="#dde2ea" /><rect x="440" y="620" width="64" height="48" rx="10" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>В небольшой фирме кадры часто ведёт не кадровик, а директор, бухгалтер или сторонний аутсорсер — между делом, по образцам из интернета. Документы копятся годами, и никто не сверяет их между собой.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>В небольшой фирме кадры часто ведёт не кадровик, а директор, бухгалтер или сторонний аутсорсер — между делом, по образцам из интернета. Документы копятся годами, и никто не сверяет их между собой.</p>
     <p>Ошибки обнаруживаются в неудобный момент: когда уходит бухгалтер и новый не может разобраться в чужих бумагах, когда уволенный работник пишет жалобу в трудовую инспекцию, когда начинается спор о зарплате или отпуске.</p>
     <p>Плановые проверки малого бизнеса сейчас ограничены мораторием, но внеплановые по жалобе работника он не закрывает. Поэтому проверять документы стоит не перед проверкой, а заранее — раз в год и при смене того, кто ведёт кадры.</p>
     <p>Сервис проверяет весь комплект кадровых документов фирмы. Вы загружаете сканы или файлы: трудовые договоры и дополнительные соглашения, приказы о приёме, переводе, отпуске и увольнении, личные карточки Т-2, график отпусков, табели учёта рабочего времени, согласия на обработку персональных данных и сведения ЕФС-1.</p>
@@ -108,31 +142,34 @@
     <p>Документы содержат персональные данные ваших работников. Мы используем их только для проверки и не передаём третьим лицам.</p>
     <p>Сервис рассчитан на ООО и ИП в России с 1–30 работниками, у которых нет штатного кадровика. Сейчас он в подготовке: сначала мы проверяем, нужен ли он работодателям.</p>
     <p>Отчёт готовится по вашим документам; он не заменяет консультацию юриста, а исправления вносите вы.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Какие документы нужны?</h3>
-    <p>Трудовые договоры, приказы о приёме, переводе, отпуске и увольнении, карточки Т-2, график отпусков, табели, согласия на обработку ПДн и ЕФС-1.</p>
-    <h3>Что будет в отчёте?</h3>
-    <p>Список нарушений по фирме и каждому работнику, со статьёй ТК РФ и КоАП и тем, что исправить.</p>
-    <h3>Как часто проверять?</h3>
-    <p>Раз в год, при смене того, кто ведёт кадры, и при споре с работником.</p>
-    <h3>Это консультация юриста?</h3>
-    <p>Нет. Отчёт готовится по вашим документам; исправления вносите вы.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он работодателям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Какие документы нужны?</h3><p>Трудовые договоры, приказы о приёме, переводе, отпуске и увольнении, карточки Т-2, график отпусков, табели, согласия на обработку ПДн и ЕФС-1.</p></div>
+      <div class="split flip"><h3>Что будет в отчёте?</h3><p>Список нарушений по фирме и каждому работнику, со статьёй ТК РФ и КоАП и тем, что исправить.</p></div>
+      <div class="split flip"><h3>Как часто проверять?</h3><p>Раз в год, при смене того, кто ведёт кадры, и при споре с работником.</p></div>
+      <div class="split flip"><h3>Это консультация юриста?</h3><p>Нет. Отчёт готовится по вашим документам; исправления вносите вы.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он работодателям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Расскажите о фирме</h2>
-    <p><label>Сколько у вас работников<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>1–5</option><option>6–15</option><option>16–30</option><option>Больше 30</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Расскажите о фирме</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько у вас работников<select data-ev-focus="form_start"><option value="">— выберите —</option><option>1–5</option><option>6–15</option><option>16–30</option><option>Больше 30</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Кадры в порядке</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Проверка по вашим документам. Не консультация юриста; исправления вносите вы.</p>
+  <p>Проверка по вашим документам. Не консультация юриста; исправления вносите вы.</p>
 </div></footer>
 
 </body>
